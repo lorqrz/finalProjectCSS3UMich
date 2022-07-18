@@ -1,0 +1,133 @@
+body{
+    border: #fff solid 15px;
+    margin:2%;
+}
+
+header{
+    padding:5px;
+    width:100%;
+    height:210px;
+    background-image: url(../image/flywheel.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:initial;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:10px;
+    background-color:#b7b93f;
+}
+
+h1{
+    text-align:center;
+    font-size: xx-large;
+}
+
+h2{
+    color:black;
+    font-size:300%;
+    border:#ffffff solid 2px;
+    margin:0px 10px 10px 10px;
+}
+
+p{
+    font-size:150%;
+}
+
+section{
+    margin:20px #fff;
+    margin-left:28%;
+}
+
+img[src$=".jpg"]{
+    border:#000000 solid 3px;
+    width:100%;
+    height:100%;
+}
+
+aside{
+    display:inline-block;
+    border:#b7b93f solid 50px;
+    float:left;
+    background-color:#b7b93f;
+    width:20%;
+}
+
+nav a:link{
+    display:inline-block;
+    text-decoration: none;
+    background-color:#fff;
+    color:#000000;
+    border:2px solid #fff;
+    padding: 15px 50px;
+    text-align:center;
+    display:inline-block;
+    text-transform:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10%; 
+    font-size: large;   
+    border-radius:20px;
+    width:5%;
+}
+
+nav a:hover{
+    background:#ffffff9a;
+    color:#000000;
+}
+
+nav a:focus{
+    background:#ffffff9a;
+    color:#000000
+}
+
+nav a:active{
+    background:#ffffff9a;
+    color:#000000
+}
+
+nav{
+    text-align:center;
+    display:block;
+}
+
+table{
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif, cursive;
+    font-weight: bold;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 150%;
+    text-align: center;
+}
+
+tr th{
+    background: -webkit-linear-gradient(#b4e982, #4c7e0a);
+       background: -moz-linear-gradient(#b4e982, #4c7e0a);
+         background: -o-linear-gradient(#b4e982, #4c7e0a);
+            background: linear-gradient(#b4e982, #4c7e0a);
+    border: 1px solid #96c21d;
+    border-bottom: 3px solid #96c21d;
+    border-radius: 7px 7px 0 0;
+    color: #ffffff;
+    height: 45px;
+    padding-left: 1%;
+}
+
+tr td{
+    opacity: .8;
+    padding: 1%;
+    background-color: #dfefe6;
+    color: #4d5758;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+    font-size: 85%;
+}
+
+tr td:first-child, table tr th:first-child{
+    text-align: left;
+}
+
+tr:hover td{
+    opacity: 1;
+    
+}
